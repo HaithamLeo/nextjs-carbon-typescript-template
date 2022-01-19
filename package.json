@@ -1,0 +1,45 @@
+{
+  "name": "nextjs-carbon-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "next.config.js",
+  "author": "Haitham Leo <alkhomayasi3@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaithamLeo/nextjs-carbon-typescript-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HaithamLeo/nextjs-carbon-typescript-template/issues"
+  },
+  "homepage": "https://github.com/HaithamLeo/nextjs-carbon-typescript-template#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "carbon-components": "^10.32.1",
+    "carbon-components-react": "^7.32.1",
+    "carbon-icons": "^7.0.7",
+    "next": "^10.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@carbon/colors": "^10.22.0",
+    "@carbon/icons-react": "^10.29.0",
+    "@carbon/layout": "^10.35.0",
+    "@carbon/themes": "^10.31.0",
+    "@carbon/type": "^10.25.0",
+    "@types/carbon__icons-react": "^10.31.2",
+    "@types/carbon-components-react": "^7.30.0",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.8",
+    "typescript": "^4.2.3"
+  }
+}
