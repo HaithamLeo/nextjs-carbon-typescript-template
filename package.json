@@ -2,9 +2,16 @@
   "name": "nextjs-carbon-app",
   "version": "1.0.0",
   "description": "",
+  "keywords": [
+    "react",
+    "next.js",
+    "carbon design system",
+    "typescript",
+    "javascript"
+  ],
   "main": "next.config.js",
   "author": "Haitham Leo <alkhomayasi3@gmail.com>",
-  "license": "MIT",
+  "license": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HaithamLeo/nextjs-carbon-typescript-template.git"
