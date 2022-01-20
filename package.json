@@ -1,7 +1,7 @@
 {
   "name": "nextjs-carbon-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple project that shows the usage of Next.js and Carbon React components with TypeScript",
   "keywords": [
     "react",
     "next.js",
