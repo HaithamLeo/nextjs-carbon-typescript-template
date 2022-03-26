@@ -8,7 +8,7 @@ import {
 } from 'carbon-components-react'
 import { Search20, Notification20, Switcher20 } from '@carbon/icons-react'
 
-const CarbonHeader = () => {
+const CarbonHeader = (): JSX.Element => {
   return (
     <Header aria-label="IBM Platform Name">
       <SkipToContent />

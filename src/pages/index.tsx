@@ -1,7 +1,7 @@
 import React from 'react'
 import App from '../components/App'
 
-const Index = () => {
+const Index = (): JSX.Element => {
   return <App />
 }
 
