@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import Head from 'next/head'
 import type { AppProps } from 'next/app'
 import '../../src/styles.scss'
-export default function MyApp(props: AppProps) {
+
+const MyApp = (props: AppProps): JSX.Element => {
   const { Component, pageProps } = props
 
   React.useEffect(() => {
@@ -31,3 +32,5 @@ MyApp.propTypes = {
   Component: PropTypes.elementType.isRequired,
   pageProps: PropTypes.object.isRequired,
 }
+
+export default MyApp
